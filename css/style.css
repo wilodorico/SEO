@@ -648,9 +648,6 @@ cite {
     font-size: 22px;
     color: #484848;
 }
-cite + p {
-    font-size: 15px;
-}
 
 .container {
     max-width: 1000px;
@@ -675,7 +672,7 @@ cite + p {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
