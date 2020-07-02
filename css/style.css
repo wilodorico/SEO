@@ -644,6 +644,13 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+cite {
+    font-size: 22px;
+    color: #484848;
+}
+cite + p {
+    font-size: 15px;
+}
 
 .container {
     max-width: 1000px;
