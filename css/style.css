@@ -112,11 +112,6 @@ a:hover {
     margin-top: 80px;
 }
 
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -305,11 +300,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -503,7 +498,7 @@ cite {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -512,7 +507,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -530,8 +525,11 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -548,7 +546,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -750,8 +748,7 @@ h1 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
+        text-align: center;
         width: 100%;
     }
     .nav > li:hover {
