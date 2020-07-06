@@ -53,15 +53,7 @@ a:hover {
     align-items: center;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
 .bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
 .bg-repeat {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
@@ -588,10 +580,6 @@ h1 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
