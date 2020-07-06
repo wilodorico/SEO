@@ -577,7 +577,7 @@ h1 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(85, 79, 61, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -608,7 +608,7 @@ h1 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #A13615!important;
+    background: #c27956!important;
 }
 
 .ltc-white {
@@ -616,7 +616,7 @@ h1 {
 }
 
 .ltc-white:hover {
-    color: #A13615!important;
+    color: #cccccc!important;
 }
 
 .icon-dark-slate-blue {
