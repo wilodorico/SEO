@@ -608,8 +608,7 @@ h1 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #A13615!important;
 }
 
 .ltc-white {
@@ -617,15 +616,7 @@ h1 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
-}
-
-.ltc-atomic-tangerine {
-    color: #F3976C!important;
-}
-
-.ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #A13615!important;
 }
 
 .icon-dark-slate-blue {
