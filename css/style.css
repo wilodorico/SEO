@@ -29,12 +29,6 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -474,6 +468,10 @@ cite {
 .container {
     max-width: 1000px;
 }
+#bloc-0 > div {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -772,20 +770,14 @@ h1 {
         float: left;
         margin-left: 10px;
     }
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
+    
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding-bottom: 40px;
+        padding-top: 40px;
     }
-    .bloc-sm,
-    .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
-    }
+    
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
