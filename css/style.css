@@ -471,6 +471,7 @@ cite {
 #bloc-0 > div {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 15px;
 }
 
 .hero-bloc-text {
@@ -581,20 +582,20 @@ h1 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #eb8555;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #eb8555!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #eb8555;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #c76232!important;
 }
 
 .ltc-white {
