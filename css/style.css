@@ -770,9 +770,12 @@ h1 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding-bottom: 40px;
-        padding-top: 40px;
+        padding: 40px 15px;
     }
+    .black-background {
+        padding: 40px 10px;
+    }
+    
     
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
